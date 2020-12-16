@@ -1,6 +1,6 @@
 """
 For step by step explanation, do visit
-
+https://youtu.be/HQMafUyDUMk
 """
 import random
 def user_turn(status):
@@ -32,13 +32,13 @@ def display_board(status):
             print("——+——+——") 
     return status
 def is_game_over(status,player):
-    #DIAGONAL
+    #Diagonal win?
     for i in range(3):
         if status[i][i]!=player:
             break
     else:
         return 1
-    #Other diagonal
+    #Other diagonal win?
     i=2
     for j in range(3):
         if status[i][j]!=player:
