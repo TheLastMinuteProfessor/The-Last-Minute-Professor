@@ -1,7 +1,7 @@
 """
 Author: The Last Minute Professor
 Explanation available at:
-
+https://youtu.be/Hwt3dTPDeyc
 """
 numbers=[int(x) for x in input("Enter the list of values separated by a comma").split(",")]
 search=int(input("Enter the number to search:"))
